@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-color: #000;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    width: 320px;
+    height: 620px;
+    border: solid 10px silver;
+    margin: 20px auto 0;
+    font-size: 0;
+}
+
+.game {
+    padding-top: 40px;
+    font-size: 30px;
+    width: 320px;
+    margin: auto;
+}
+
+.cell {
+    width: 30px;
+    height: 30px;
+    border: solid 1px silver;
+    display: inline-block;
+}
+
+.movingCell {
+    background-color: blue;
+}
+
+.fixedCell {
+    background-color: green;
+}
+#next-tetro {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-size: 0px;
+}
+#game-over {
+    font-size: 75px;
+    color: green;
+    text-align: center;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
